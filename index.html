@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSAP + Bootstrap</title>
+    <!-- Adicionando o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+        <!-- npm run dev -->    
+
+    <div class="container">
+  <header class="d-flex justify-content-center py-3 position-relative">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a data-i18n="menu.sobre" href="#sobre" class="nav-link active" aria-current="page">About Me</a>
+      </li>
+      <li class="nav-item"><a data-i18n="menu.projetos" href="#projetos" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a data-i18n="menu.experiencias" href="#experiencias" class="nav-link">Experiences</a></li>
+      <li class="nav-item"><a data-i18n="menu.contato" href="#contato" class="nav-link">Contact</a></li>
+    </ul>
+   <a href="#" id="btn-idioma" class="btn btn-language position-absolute end-0 top-50 translate-middle-y">EN</a>
+</header>
+</div><div class="container text-center containervh d-flex flex-column justify-content-center">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-primary display-3">PORTIFÓLIO</h1>
+        </div>
+    </div>
+</div>
+<div class="sobre container-fluid px-5 py-5 text-center" id="sobre">
+  <div class="sobre row">
+    <div class="sobre col-12">
+      <h1 data-i18n="sobre.titulo" class="text-info mb-4">Sobre Mim</h1>
+      <h3 data-i18n="sobre.texto" class="text-link px-3 py-3">Meu nome é Gabriela Schaper, estou cursando Ciência da Computação na PUC. Desde sempre gostei muito de lógica, e após fazer o curso tecnico no Cotemig percebi que era o caminho ideal, e decidi prosseguir com uma faculdade da área. Procuro trabalhar com desenvolvimento de novas tecnologias enquanto faço pesquisa.</h3>
+    </div>
+  </div>
+</div>
+
+    <div class="projetos position-relative overflow-hidden p-3 p-md-5 text-center bg-body" id="projetos">
+        <div class="col-md-6 p-lg-5 mx-auto my-5 px-5 py-5">
+          <h1 data-i18n="projetos.titulo" class="projetosTextColor display-3 fw-bold">PROJETOS</h1>
+          <h3 data-i18n="projetos.subtitulo" class="fw-normal text-muted mb-3">
+           Apenas alguns dos meus principais projetos! 
+          </h3>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div
+          class="product-device product-device-2 shadow-sm d-none d-md-block"
+        ></div>
+      </div>
+
+
+
+     <div class="container my-5">
+        <div
+          class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+        >
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+              Tabela Periódica
+                    </h1>
+            <p data-i18n="proj.tabela.desc" class="lead">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+  <a
+    href="https://github.com/GabiScha/Front_TabelaPeriodica"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-i18n="btn.github"
+    class="btn1 btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+  >
+    Ver no GitHub
+  </a>
+  <a
+    href="https://gabischa.github.io/Front_TabelaPeriodica/"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-i18n="btn.preview"
+    class="btn btn-outline-secondary btn-lg px-4"
+  >
+    Ver site
+  </a>
+</div>          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img
+              class="rounded-lg-3"
+              src="src/assets/tabela.png"
+
+              alt=""
+              width="720"
+            />
+          </div>
+        </div>
+      </div>
+
+    <div class="outroContainer container my-5">
+        <div
+          class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+        >
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+              SushiChef
+            </h1>
+            <p data-i18n="proj.sushi.desc" class="lead">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div
+              class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+            >
+              <a href="https://github.com/GabiScha/Front_Sushi" target="_blank" rel="noopener noreferrer"
+   data-i18n="btn.github" class="btn2 btn btn-primary btn-lg px-4 me-md-2 fw-bold">Ver no GitHub</a>                         </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img
+              class="rounded-lg-3"
+              src="src/assets/sushi.png"
+              alt=""
+              width="720"
+            />
+          </div>
+        </div>
+      </div>
+
+    <div class="container my-5">
+        <div
+          class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+        >
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+              Grene
+            </h1>
+            <p data-i18n="proj.grene.desc" class="lead">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div
+              class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+            >
+              <a href="https://github.com/GabiScha/Grene" target="_blank" rel="noopener noreferrer"
+   data-i18n="btn.github" class="btn1 btn btn-primary btn-lg px-4 me-md-2 fw-bold">Ver no GitHub</a>             
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img
+              class="rounded-lg-3"
+              src="src/assets/grene_1.gif"
+
+              alt=""
+              width="720"
+            />
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="projetos experiencias b-example-divider" id="experiencias"></div>
+      <div class="experiencias text-secondary px-4 py-2 text-center">
+        <div class="py-5">
+          <h1 data-i18n="exp.titulo" class="experiencias display-3 fw-bold ">EXPERIENCIAS</h1>
+          <div class="col-lg-6 mx-auto">
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                         </div>
+          </div>
+        </div>
+      </div>
+      <div class="b-example-divider mb-0"></div>
+
+<div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">
+          Studio Sapiens
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p data-i18n="exp.sapiens.desc" class="lead mb-4">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh">
+          <div class="container px-5">
+            <img
+              src="src/assets/n8n.png"
+              class="img-fluid border rounded-3 shadow-lg mb-4"
+              alt="Example image"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+
+<section class="contato bg-mantle py-5" id="contato">
+  <div class="container text-center">
+    <h1 data-i18n="contato.titulo" class="display-3 fw-bold text-primary mb-2">CONTATO</h1>
+    <p data-i18n="contato.sub" class="lead text-body-secondary mb-5">Vamos conversar? Mande uma mensagem.</p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <form id="form-contato" class="text-start">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required>
+            <label data-i18n="form.nome" for="nome">Nome</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
+            <label data-i18n="form.email" for="email">E-mail</label>
+          </div>
+          <div class="form-floating mb-4">
+            <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Mensagem"
+                      style="height: 150px" required></textarea>
+            <label data-i18n="form.mensagem" for="mensagem">Mensagem</label>
+          </div>
+          <div class="d-grid">
+            <button data-i18n="form.enviar" type="submit" class="btn-enviar btn btn-primary btn-lg fw-bold">Enviar</button>
+          </div>
+        </form>
+<div id="form-status" role="status"></div>
+
+        <div class="d-flex gap-3 justify-content-center mt-5 fs-2">
+          <a href="https://github.com/GabiScha" target="_blank" rel="noopener noreferrer"
+             class="text-primary" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/gabrielaschaper" target="_blank" rel="noopener noreferrer"
+             class="text-primary" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:gabrielasch2409@gmail.com" class="text-primary" aria-label="E-mail"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section></div>
+
+
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav nav-pills justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item">
+        <a href="#sobre" class="nav-link">About Me</a>
+      </li>
+      <li class="nav-item"><a href="#projetos" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#experiencias" class="nav-link">Experiences</a></li>
+      <li class="nav-item"><a href="#contato" class="nav-link">Contact</a></li>
+    </ul>
+    <p class="text-center text-body-secondary mb-0">&copy; 2026 GabiScha</p>
+  </footer>
+</div>
+
+
+
+    <!-- A nossa bolinha que vai virar o "Custom Cursor" -->
+<!--    <div class="bolinha"></div> -->
+<!--   <div class="bolinha2"></div> -->
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
