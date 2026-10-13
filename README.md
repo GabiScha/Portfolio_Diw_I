@@ -44,9 +44,9 @@ Projeto desenvolvido para o Laboratório 01 - Portfólio Profissional da discipl
 
 ## Links Úteis
 
-- **Site publicado:** [TODO: link do Vercel](https://https://portfolio-gabischa.vercel.app/)
+- **Site publicado:** [Link do Vercel](https://https://portfolio-gabischa.vercel.app/)
 - **Repositório:** [github.com/GabiScha/Portifolio_Diw_I](https://github.com/GabiScha/Portifolio_Diw_I)
-- **Protótipo no Figma:** [TODO: link do Figma, com acesso por link liberado](https://www.figma.com/)
+- **Protótipo no Figma:** [Link do Figma, com acesso por link liberado](https://www.figma.com/design/fh0XDAZkdFiMwCgS4bZ2fC/Portfolio?node-id=0-1&t=esHnImpq1ePGTtQN-1)
 
 ---
 
