@@ -44,7 +44,7 @@ Projeto desenvolvido para o Laboratório 01 - Portfólio Profissional da discipl
 
 ## Links Úteis
 
-- **Site publicado:** [TODO: link do Vercel](https://TODO-seu-projeto.vercel.app)
+- **Site publicado:** [TODO: link do Vercel](https://https://portfolio-gabischa.vercel.app/)
 - **Repositório:** [github.com/GabiScha/Portifolio_Diw_I](https://github.com/GabiScha/Portifolio_Diw_I)
 - **Protótipo no Figma:** [TODO: link do Figma, com acesso por link liberado](https://www.figma.com/)
 
@@ -216,7 +216,7 @@ O site é hospedado na Vercel, com publicação automática a cada `git push` na
 4. Clique em Deploy.
 5. No EmailJS, adicione o domínio `*.vercel.app` do projeto à lista de domínios permitidos, caso haja restrição.
 
-**Link do site publicado:** [TODO: link do Vercel](https://TODO-seu-projeto.vercel.app)
+**Link do site publicado:** [TODO: link do Vercel](https://portfolio-gabischa.vercel.app/)
 
 ---
 
