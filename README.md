@@ -251,11 +251,6 @@ Portifolio_Diw_I/
 ![Experiências](docs/print-experiencias.png)
 ![Contato](docs/print-contato.png)
 
-### Funcionalidades em ação
-
-![Troca de idioma](docs/demo-idioma.gif)
-![Envio do formulário](docs/demo-formulario.gif)
-
 ---
 
 ## Testes
