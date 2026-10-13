@@ -278,7 +278,7 @@ O projeto não possui testes automatizados nesta versão. A verificação foi fe
 
 | Nome | GitHub | LinkedIn | E-mail |
 | :--- | :--- | :--- | :--- |
-| Gabriela Schaper | [GabiScha](https://github.com/GabiScha) | [TODO: perfil](https://www.linkedin.com/in/TODO-SEU-PERFIL) | TODO: seu e-mail |
+| Gabriela Schaper | [GabiScha](https://github.com/GabiScha) | [Perfil](https://www.linkedin.com/in/gabrielaschaper/) | gabrielasch2409@gmail.com |
 
 ---
 
