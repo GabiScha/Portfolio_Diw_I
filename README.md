@@ -12,7 +12,7 @@ Projeto desenvolvido para o Laboratório 01 - Portfólio Profissional da discipl
 
 - [x] Lab01S01: planejamento, wireframes, layout principal e navegação
 - [x] Lab01S02: seções funcionais, troca PT/EN e formulário de contato
-- [ ] Lab01S03: ajustes finais, imagens/GIFs dos projetos e animações de scroll (GSAP)
+- [x] Lab01S03: ajustes finais, imagens/GIFs dos projetos e animações de scroll (GSAP)
 
 
 ---
