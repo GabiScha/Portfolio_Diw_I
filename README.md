@@ -1,4 +1,3 @@
-<!-- Procure por "TODO" neste arquivo: são os pontos que ainda precisam de informação sua. -->
 
 # Portfólio Profissional - Gabriela Schaper
 
@@ -15,7 +14,6 @@ Projeto desenvolvido para o Laboratório 01 - Portfólio Profissional da discipl
 - [x] Lab01S02: seções funcionais, troca PT/EN e formulário de contato
 - [ ] Lab01S03: ajustes finais, imagens/GIFs dos projetos e animações de scroll (GSAP)
 
-<!-- TODO: ajuste os itens acima conforme o andamento real -->
 
 ---
 
@@ -64,8 +62,8 @@ O projeto também foi um laboratório de aprendizado: minha primeira experiênci
 
 Wireframes de média fidelidade criados no Figma antes da implementação.
 
-![Wireframe desktop](docs/wireframe-desktop.png)
-![Wireframe mobile](docs/wireframe-mobile.png)
+![Wireframe desktop](docs/Desktop.png)
+![Wireframe mobile](docs/Mobile.png)
 
 <!-- TODO: exporte os frames do Figma como PNG e salve em docs/ -->
 
