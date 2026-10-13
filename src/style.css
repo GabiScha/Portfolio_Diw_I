@@ -201,3 +201,4 @@ p.lead {
   --bs-alert-bg: var(--ctp-surface0);
   --bs-alert-border-color: var(--ctp-red);
 }
+.letra { display: inline-block; }
