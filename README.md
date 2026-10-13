@@ -216,7 +216,7 @@ O site é hospedado na Vercel, com publicação automática a cada `git push` na
 4. Clique em Deploy.
 5. No EmailJS, adicione o domínio `*.vercel.app` do projeto à lista de domínios permitidos, caso haja restrição.
 
-**Link do site publicado:** [TODO: link do Vercel](https://portfolio-gabischa.vercel.app/)
+**Link do site publicado:** [link do Vercel](https://portfolio-gabischa.vercel.app/)
 
 ---
 
